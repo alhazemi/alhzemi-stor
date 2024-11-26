@@ -1,0 +1,469 @@
+
+ header{
+   display: flex;
+
+   position:fixed;/*  لتثبيت الشريط العلوي */
+   top: 0;
+   left: 0;
+   width: 100%;
+  background-color: #eee;
+box-shadow: 0 2px 5px rgba(0,0, 0,0.3);
+
+
+   align-items: center;
+    /* justify-content:20px; */
+   padding: 2px;
+   /* color: white; */
+ }
+ 
+ .techno{
+   width: 300px;
+   height: 100px;
+   margin-right: 300px;
+
+
+ }
+ nav{
+   display: flex;
+   gap: 15px;/*space between elements*/
+  
+ }
+ nav a{
+   text-decoration: none;
+  padding: 8px,16px;
+  border-radius: 4px;
+   font-family:Arial, Helvetica, sans-serif ;
+  font-weight: bold;
+   margin-right: 20px;
+  transition: background-color 0.3s;
+
+ }
+ nav a:hover{
+background-color: #6688f0;
+
+ }
+
+ .email{
+  display: flex;
+  align-items: center;
+ }
+ header input{
+margin-left: 180px;
+margin-right: 10px;
+margin-top: 20px;
+width: 100px;
+height: auto;
+background-color: rgb(102, 136, 240);
+border-radius: 5px;
+border: 1px;
+padding: 5px;
+ }
+ header input::placeholder{
+  color:white;
+ }
+ header button{
+  height: 25px;
+  padding-top: 0px;
+ }
+
+
+ .photo{
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    margin:auto;
+ }
+.products{
+    display: flex;
+    padding-top: 50px;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    margin: 5px;
+    /* border: 2px solid black;} */
+}
+    
+    
+    
+  .all {
+    /* display: flex; */
+ padding: 20px 60px 60px 60px;
+    background-color: rgb(231, 238, 252);
+    border: 1px solid black;
+    border-radius: 5px;
+   /* padding: 60px; */
+   text-align: center;  
+   /* margin: 5px 100px 30px 100px; */
+   margin: auto;
+   width: 80px;
+   height:230px;
+   box-shadow: 0 2px 5px rgb(0, 0,0);
+    justify-content: center;
+     transition: transform 0.2s ; /*تأثير التحرك }   */
+  }
+    .all:hover {
+        transform: scale(1.05); /* تكبير المنتج عند التمرير */
+    } 
+ 
+    .rating {
+      display: flex;
+      margin: 10px 0; /* Space above and below the rating */
+    }
+    
+    .rating i {
+      color: #FFD700; /* Color for filled stars */
+      margin-right: 5px; /* Space between stars */
+      font-size: 10px; /* Set the size of the stars */
+    }
+   .add-to-cart {
+    background-color: rgb(102, 136,240);
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 5px;
+   
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 10px; /* Font size */
+    margin-top: 30px; /* Space above the button */
+    /* margin-right: 90px; */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    width: 90px;
+  }
+  
+  .add-to-cart i {
+    margin-right: 5px; /* Space between icon and text */
+  }
+  
+  .add-to-cart:hover {
+    background-color: #3610cf; /* Darker green on hover */
+  }
+
+  
+  /* about css */
+
+  .about{
+    margin-top: 150px;
+padding-top: 100px;
+border:2px solid #eee;
+/* background-color: red; */
+
+
+
+  }
+  .main {
+    text-transform: capitalize;
+    padding: 20px;
+    max-width: 700px; /* Set page width */
+    margin-left: 600px;
+    margin-top: 50px;
+    /* background-color: white; */
+     /* Content background color */
+    border-radius: 8px; /* Rounded corners for content */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Content shadow */
+    /* border: 1px solid white; */
+}
+
+.grid-container {
+  /* margin: 20px auto; */
+  /* padding: 10px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(2, auto); /* Two rows */
+     gap: 10px; 
+     /*Space between grid items */
+     /* margin-bottom: 20px; */
+     /* grid-gap: 10px */
+     /* row-gap: 10px; */
+}
+
+.grid-item  {
+   margin-top: 50px;
+   border: 1px solid white;
+    /* background-color: rgb(231, 238, 252); */
+     /* Background color for grid items */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners for grid items */
+   
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for grid items */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 200px;
+   /* margin: 5px; */
+   padding: 10px;
+   color: white;
+   font-family:Arial, Helvetica, sans-serif ;
+   /* font-weight: bold; */
+  }
+
+
+h2 {
+    color: #2957d6 ; /* Heading color 2957d6 */
+    border-bottom: 2px solid #2957d6; /* Underline for heading */
+    padding-bottom: 5px; /* Space between heading and content */
+}
+
+p {
+    line-height: 1.6; 
+    /* Line height */
+
+    margin-bottom: 15px; /* Space between paragraphs */
+}
+
+
+footer {
+    text-align: center;
+    /* padding: 10px; */
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding-top:0px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Footer shadow */
+}
+
+/* check css */
+.checkpage {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  max-width: 500px; /* عرض الصفحة */
+   margin-top: 120px; /* توسيط الصفحة */
+   /* margin-right: 150px; */
+  border-radius: 8px; /* زوايا دائرية للمحتوى */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* ظل المحتوى */
+  height: 500px;
+  margin-left: 700px;
+}
+
+label {
+  margin-top: 10px; /* مساحة فوق كل تسمية */
+  font-weight: bold; /* جعل النص غامق */
+  color: white;
+}
+
+
+/* input[type="text"], */
+select {
+  padding: 10px; /* حشوة داخل الحقول */
+  margin-top: 5px; /* مساحة فوق الحقول */
+  border: 1px solid #ccc; /* حدود الحقول */
+  border-radius: 4px; /* زوايا دائرية للحقول */
+  font-size: 16px; /* حجم الخط */
+}
+
+button {
+  margin-top: 20px; /* مساحة فوق الزر */
+  padding: 10px; /* حشوة داخل الزر */
+  background-color: #6688f0; /* لون خلفية الزر */
+  color: white; /* لون النص */
+  border: none; /* لا حدود */
+  border-radius: 5px; /* زوايا دائرية للزر */
+  /* cursor: pointer; */
+   /* تغيير شكل المؤشر عند المرور فوق الزر */
+  font-size: 16px; /* حجم الخط */
+  transition: background-color 0.3s; /* تأثير الانتقال */
+}
+
+button:hover {
+  background-color: #4c4eaf; /* لون أغمق عند المرور فوق الزر */
+}
+input{
+  height: 30px
+}
+
+input:is(:focus){
+border:3px solid transparent;
+transition: all 0.1s ease;
+
+background: linear-gradient(#84c0f5,#7e7ca9) padding-box , linear-gradient(45deg,green,red);
+}
+/*    contact page*/
+.main_cont{
+  margin-top: 120px;
+}
+.p_cont{
+  font-weight: bold;
+text-align: left;
+margin-left: 0px;
+
+font-size: large;
+}
+fieldset{
+   /* margin-left: 100px;  */
+  /* margin: 0px 100px 100px 100px; */
+  width: 50%;
+  background:linear-gradient(#6688f0,#eeee);
+         margin-top: 100px; 
+  border-radius: 30px 30px;
+  text-transform: capitalize;
+  text-align: center;
+  background-color:#eeee;
+  font-size: 14px;
+  font-weight: bold;}
+
+  legend{
+    text-transform: uppercase;
+    color: rgb(14, 23, 5);
+    text-align: center;
+  }
+  
+  p{
+    text-align: center;
+  }
+  /*  */
+
+  @media (max-width: 1000px) {
+    header {
+        flex-direction: row; /* تغيير الاتجاه إلى عمودي */
+        align-items: flex-start; /* محاذاة العناصر إلى اليسار */
+    }
+  
+    .techno {
+        margin-right: 0; /* إزالة الهامش الأيمن */
+        width: 30%; /* عرض مرن للصورة */
+    }
+  
+    nav {
+      margin-top: 30px;
+        /* margin-bottom: 40px; */
+         /* إضافة مسافة أسفل القائمة */
+    }
+    nav a{
+      margin:0 0px;
+
+    }
+  
+    header input {
+      margin-top:30px ;
+        margin-left:5px; /* إزالة الهامش الأيسر */
+        width:60%; /* عرض مرن للحقل */
+        /* height: 30px; */
+        font-size: 8px;
+    }
+    header button{
+      margin-top:30px ;
+      margin-left:0px; /* إزالة الهامش الأيسر */
+      width:30%; /* عرض مرن للحقل */
+      /* height: 30px; */
+      font-size: 10px;
+    }
+    /* .photo{
+    
+ width: 100px;
+ margin-left: 0; */
+    /* } */
+#photo1{ 
+  
+  width: 50%;}
+#photo2{
+  width: 50%;
+ 
+}
+  #photo3{
+width: 100%;
+
+  }
+    .products {
+        flex-direction: row; /* تغيير الاتجاه إلى عمودي */
+        align-items: center; /* محاذاة المنتجات في المنتصف */
+    }
+  
+    .all {
+        width: 20%; /* عرض مرن للمنتجات */
+    }
+ 
+  }
+
+  /* pages */
+  @media(max-width :1000px){
+    .checkpage {
+      margin-left: 0; /* إزالة الهامش الأيسر */
+      width: 70%; /* عرض مرن للصفحة */
+  }
+  .main{
+   margin-left: 0;
+
+  }
+  .grid-container{
+    grid-template-rows: 1fr;
+    /* padding: 30px; */
+  
+  }
+  
+  .grid-item p{
+
+    font-size: 12px;
+
+  }
+  }
+  /* Media Queries for Mobile Devices */
+@media screen and(max-width: 600px) {
+  header {
+      flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+      align-items: flex-start; /* محاذاة العناصر إلى اليسار */
+      padding: 50px; /* إضافة حشوة إضافية */
+  }
+
+  .techno {
+      width: 100%; /* جعل الصورة تأخذ عرض الشاشة بالكامل */
+      margin-right: 0; /* إزالة الهامش الأيمن */
+  }
+
+  nav {
+      margin-top: 10px; /* إضافة مسافة أعلى القائمة */
+      flex-direction: column; /* جعل الروابط في عمود */
+      align-items: flex-start; /* محاذاة الروابط إلى اليسار */
+  }
+
+  nav a {
+      margin: 5px 0; /* إضافة مسافة بين الروابط */
+      width: 100%; /* جعل الروابط تأخذ عرض الشاشة بالكامل */
+      text-align: center; /* محاذاة النص في المنتصف */
+  }
+
+  header input {
+      margin-left: 0; /* إزالة الهامش الأيسر */
+      width: 80%; /* جعل الحقل يأخذ عرض الشاشة بالكامل */
+      font-size: 14px; /* ضبط حجم الخط */
+  }
+
+  header button {
+      margin-top: 10px; /* إضافة مسافة أعلى الزر */
+      width: 80%; /* جعل الزر يأخذ عرض الشاشة بالكامل */
+      font-size: 14px; /* ضبط حجم الخط */
+  }
+
+  .products {
+      flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+      align-items: center; /* محاذاة المنتجات في المنتصف */
+  }
+
+  .all {
+      width: 90%; /* جعل المنتجات تأخذ عرض مرن */
+      margin: 10px 0; /* إضافة مسافة بين المنتجات */
+  }
+
+  .grid-container {
+      grid-template-columns: 1fr; /* عمود واحد */
+  }
+
+  .grid-item {
+      margin-top: 20px; /* تقليل المسافة العلوية */
+      font-size: 12px; /* حجم الخط */
+  }
+
+  .checkpage {
+      margin-left: 0; /* إزالة الهامش الأيسر */
+      width: 90%; /* عرض مرن للصفحة */
+  }
+
+  .main {
+      margin-left: 0; /* إزالة الهامش الأيسر */
+      width: 90%; /* عرض مرن للمحتوى */
+  }
+}
